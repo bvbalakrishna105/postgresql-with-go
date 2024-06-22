@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Connection parameters
-	connStr := "user=postgres password=postgres dbname=postgres sslmode=disable"
+	connStr := "user=postgres password=postgres dbname=vidkrix sslmode=disable"
 
 	// Open PostgreSQL database
 	db, err := sql.Open("postgres", connStr)
